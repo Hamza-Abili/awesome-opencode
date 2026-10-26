@@ -1,0 +1,4 @@
+name: Opencode Telegram Notify
+repo: https://github.com/Hamza-Abili/opencode-telegram-notify
+tagline: Telegram notifications for permissions, questions and task lifecycle with tap-only approval buttons
+description: OpenCode plugin (v1 and v2, zero runtime dependencies) that sends permission requests, question forms, task completions and failures to a Telegram chat. Permission requests arrive with tap-only inline buttons (Allow once / Always / Reject) answered through the supported reply surface — never auto-approves. Single-select questions get in-chat tap buttons when the host exposes a reply surface, otherwise a notify-only message pointing back to the terminal. Multi-instance safe via a single-poller lock, with per-project ownership gates, debounced completion notifications and token-redacted logs. English and Italian.
